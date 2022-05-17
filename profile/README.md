@@ -21,7 +21,7 @@ These are projects where we needed a "standard" dataset for interactions between
 and tried to generalise and document our own needs, so that they also might be available for others to consider using.
 
 - [BibleBooksCodes](https://github.com/Freely-Given-org/BibleBooksCodes): An extensive set of three-character consistently-defined codes (like *GEN* and *TH2*) that can be used by computer software to label particular Bible "books" and letters. They're also referenced against the OSIS and USFM Bible book codes, among others. (Note that the codes all start with an UPPERCASE letter, so unlike most other systems, they can also be used as variable names in most computer languages.) The dataset also includes sample implementations in some common computer languages. Used by BibleOrgSys below.
-- [BibleVersionCodes](https://github.com/Freely-Given-org/BibleVersionCodes): A list of short Bible abbreviations (like *ASV* and *NIV* and sometimes including extended versions like *NIV-1984*). This repository is intended to be a registry that any Bible publisher can request additions to. The dataset also includes sample implementations in some common computer languages. Will be used by BibleOrgSys below.
+- [BibleVersionCodes](https://github.com/Freely-Given-org/BibleVersionCodes): A list of short Bible abbreviations (like *ASV* and *NIV* and sometimes including extended versions like *NIV-1984*). This repository is intended to be a registry that any Bible publisher can request additions to. Each entry contains minimal information -- the main fields for each abbreviation are just the version name and language. (A separate dataset will contain fuller entries -- this lightweight dataset is mostly to connect the version abbreviation to the name.) The dataset will also include sample implementations in some common computer languages. Will be used by BibleOrgSys below.
 - [USFMMarkers](https://github.com/Freely-Given-org/USFMMarkers): A list of USFM3 markers and some related information extracted from the [USFM documents](https://ubsicap.github.io/usfm/) and put into a form that can easily be loaded by software. Used by BibleOrgSys below.
 
 ## Specific projects
@@ -36,5 +36,5 @@ and tried to generalise and document our own needs, so that they also might be a
 
 ## Glossary
 
-B/C/V: Bible "book" / chapter / verse -- a common method of referencing Bible text as well as related resources such as Bible commentaries
-BOS: Bible Organisational System (BibleOrgSys) -- a Python library for processing B/C/V materials such as Bibles and commentaries
+- **B/C/V**: Bible "book" / chapter / verse -- a common method of referencing Bible text as well as related resources such as Bible commentaries
+- **BOS**: Bible Organisational System (BibleOrgSys) -- a Python library for processing B/C/V materials such as Bibles and commentaries
