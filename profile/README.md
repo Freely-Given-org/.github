@@ -15,14 +15,23 @@ We welcome several kinds of help:
 - Using and checking datasets, and reporting errors that need fixing, or improvements that can be added
 - Software developers to improve our proof-of-concept apps and APIs
 
+## "Standards" projects
+
+These are projects where we needed a "standard" dataset for interactions between software components,
+and tried to generalise and document our own needs, so that they also might be available for others to consider using.
+
+- [BibleBooksCodes](https://github.com/Freely-Given-org/BibleBooksCodes): An extensive set of three-character consistently-defined codes (like *GEN* and *TH2*) that can be used by computer software to label particular Bible "books" and letters. They're also referenced against the OSIS and USFM Bible book codes, among others. (Note that the codes all start with an UPPERCASE letter, so unlike most other systems, they can also be used as variable names in most computer languages.) The dataset also includes sample implementations in some common computer languages. Used by BibleOrgSys below.
+- [BibleVersionCodes](https://github.com/Freely-Given-org/BibleVersionCodes): A list of short Bible abbreviations (like *ASV* and *NIV* and sometimes including extended versions like *NIV-1984*). This repository is intended to be a registry that any Bible publisher can request additions to. The dataset also includes sample implementations in some common computer languages. Will be used by BibleOrgSys below.
+- [USFMMarkers](https://github.com/Freely-Given-org/USFMMarkers): A list of USFM3 markers and some related information extracted from the [USFM documents](https://ubsicap.github.io/usfm/) and put into a form that can easily be loaded by software. Used by BibleOrgSys below.
+
 ## Specific projects
 
-- [BibleBooksCodes](https://github.com/Freely-Given-org/BibleBooksCodes): An extensive set of three-character consistently-defined codes (like *GEN* and *TH2*) that can be used by computer software to label particular Bible "books" and letters. They're also referenced against the OSIS and USFM Bible book codes, among others. (Note that the codes all start with an UPPERCASE letter, so unlike most other systems, they can also be used as variable names in most computer languages.) The dataset also includes sample implementations in some common computer languages.
-- [BibleVersionCodes](https://github.com/Freely-Given-org/BibleVersionCodes): A list of short Bible abbreviations (like *ASV* and *NIV* and sometimes including extended versions like *NIV-1984*). This repository is intended to be a registry that any Bible publisher can request additions to. The dataset also includes sample implementations in some common computer languages.
-- [BibleOrgSys](https://github.com/Freely-Given-org/BibleOrgSys): The Bible Organisational System is a Python library that reads, processes, and writes many kinds of B/C/V
+- [BibleOrgSys](https://github.com/Freely-Given-org/BibleOrgSys): The Bible Organisational System is a Python library that reads, processes, and writes many kinds of B/C/V materials, especially including Bibles and Bible notes and commentaries.
+- [Biblelator](https://github.com/Freely-Given-org/Biblelator): A Python and TKinter Bible-translation editor based on the BibleOrgSys. Biblelator can read and write Bible "book" files in MyParatextProjects as well as in its native project folders.
 
 ## Forthcoming projects
 
+- [ESFM](https://github.com/Freely-Given-org/ESFM): Enhanced Standard Format Markers -- an attempt to enhance USFM3 to handle encoding of information beyond just Strongs numbers, as well as alternative text, i.e., to have one ESFM file capable of producing multiple USFM files, such as one dataset being able to produce both US spelling and UK spelling versions.
 - [Biblelastic](https://github.com/Freely-Given-org/Biblelastic): A planned "fantastic" Bible study app. Designers and coders wanted.
 
 ## Glossary
