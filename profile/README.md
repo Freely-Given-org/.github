@@ -48,3 +48,5 @@ so that they also might be available for others to consider using.
 - **B/C/V**: Bible **"book" / chapter / verse** -- a common method of referencing Bible text as well as related resources such as Bible commentaries. Freely-Given.org discourages the over-use of the historically popular chapter-based and verse-based ways of thinking as they are "non-logical" and sometimes "non-sensible" historic units (now often quoted out-of-context).
 - **B/S/P**: Bible **"book" / section / paragraph** -- an alternative method of referencing Bible text, where logical sections are segments separated by section headings and contain discourse units like paragraphs.
 - **BOS**: **Bible Organisational System** (**BibleOrgSys**) -- a Python library for processing B/C/V materials such as Bibles and commentaries (and also provides B/S/P referencing). It can be used to quickly create a Python script to step through and process Bible "books", chapters, verses, etc.
+
+Note: For usable linking between Bible resources, we need to extend B/C/V (and B/S/P) to W/B/C/V (and W/B/S/P) where W stands for _Work_, i.e., to have a standard way to link to (and within) other works.
