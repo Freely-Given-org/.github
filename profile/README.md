@@ -13,7 +13,7 @@ Our websites are [Freely-Given.org](https://Freely-Given.org) (established in la
 
 We welcome several kinds of help.
 
-For our software:
+For our Bible resources and software:
 
 - Assistance in compiling datasets
 - Using and checking datasets, and reporting errors that need fixing, or improvements that can be added
