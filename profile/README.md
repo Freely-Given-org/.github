@@ -56,11 +56,15 @@ so that they also might be available for others to consider using.
 - [Biblelastic](https://github.com/Freely-Given-org/Biblelastic): A planned "fantastic" Bible-study app. Designers and coders wanted. This endeavour needs to begin with defining linked data sets so that non-B/C/V reference books and courses can also be integrated. (Think "free and open version of your current expensive Bible-study app".)
 - [BibleCompiler](https://github.com/Freely-Given-org/BibleCompiler): A set of scripts (including Python and Rust) to compile an ESFM Bible into a pre-parsed, indexed, efficient format suitable for distribution of open-licensed works and also usable for serving them. SQLite3 will be the first target output.
 - [BibleTypesetter](https://github.com/Freely-Given-org/BibleTypesetter): A system to typeset a Bible (i.e., produce a beautiful PDF amongst other things) using [SILE](https://sile-typesetter.org/) supplemented by Lua scripts/classes as necessary with minimal user input, i.e., without requiring a full-time typesetter to manually layout every page.
+- BibleResourceServer: A lightweight version control system (API and service) built specifically to handle W/B/C/V texts such as Bibles and commentaries, alongside tables such as lexicons and encyclopedic entries. Some have attempted to use [Git-based](https://git-scm.com/) servers to handle this, but having been designed for computer code modules, they're not ideal for Biblical resources.
+- BibleReferenceServer: A lightweight server which can send W/B/C/V/W references between browser tabs, app windows, different programs, and even different devices. This enables resources in various places on your laptop, and even on your phone and your tablet, to scroll together for translators or Bible students as they move from verse to verse. See [BibleSync](https://GitHub.com/Freely-Given-org/biblesync) for some ideas.
 
 ## Glossary
 
 - **B/C/V**: Bible **"book" / chapter / verse** -- a common method of referencing Bible text as well as related resources such as Bible commentaries. However, for user-facing display of Biblical narrative, Freely-Given.org discourages the over-use of the historically popular chapter-based and verse-based ways of thinking as they are "non-logical" and sometimes "non-sensible" historic units (frequently quoted out-of-context).
+- **B/C/V/W**: B/C/V but able to narrow down to individual **words** as well.
 - **W/B/C/V**: Bible **work / "book" / chapter / verse** -- to meet the need to refer to a text in a specific Bible version
+- **W/B/C/V/W**: Bible **work / "book" / chapter / verse / word**
 - **B/S/P**: Bible **"book" / section / paragraph** -- an alternative method of referencing Bible text, where logical sections are segments separated by section headings and contain discourse units like paragraphs.
 - **BOS**: **Bible Organisational System** (**BibleOrgSys**) -- a Python library for processing B/C/V materials such as Bibles and commentaries (and also provides B/S/P referencing). It can be used to quickly create a Python script to step through and process Bible "books", chapters, verses, etc.
 
