@@ -46,7 +46,7 @@ so that they also might be available for others to consider using.
 
 ## Software Applications
 
-- [BibleOrgSys](https://github.com/Freely-Given-org/BibleOrgSys): The *Bible Organisational System* (or *BOS*) is a Python library that reads, processes, and writes many kinds of B/C/V materials, especially including Bibles and Bible notes and commentaries. It can be used to quickly create a Python script to step through and process Bible "books", chapters, verses, etc.
+- [BibleOrgSys](https://github.com/Freely-Given-org/BibleOrgSys): The *Bible Organisational System* (or *BibleOrgSys* or *BOS*) is a Python library that reads, processes, and writes many kinds of B/C/V materials, especially including Bibles and Bible notes and commentaries. It can be used to quickly create a Python script to step through and process Bible "books", chapters, verses, etc.
 - [Biblelator](https://github.com/Freely-Given-org/Biblelator): A Python and TKinter Bible-translation editor based on the BibleOrgSys. Biblelator can read and write Bible "book" files in MyParatextProjects as well as in its native project folders.
 - [Scripted Bible Editor](https://github.com/Freely-Given-org/ScriptedBibleEditor): A Python ESFM/USFM batch editor that applies TSV edit tables to various books or verses as required. (This is used inside a makefile to create the OET Literal Version.)
 
